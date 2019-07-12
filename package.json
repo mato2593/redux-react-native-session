@@ -4,6 +4,7 @@
   "description": "Keep your session sync with the storage and redux",
   "main": "dist/index.js",
   "scripts": {
+    "prepare": "npm run build",
     "build": "npm run clean && babel src --out-dir dist",
     "test": "jest /src/__tests__",
     "test:cover": "npm run test -- --coverage",
